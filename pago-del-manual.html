@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
 
   </head>
   <body>
@@ -23,10 +23,14 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Ingresar <object data="assets/img/icon-open-account-login.svg" type="image/svg+xml"></object></a>
+                            <a class="nav-link" href="#">Ingresar
+                                <img src="assets/img/icon-open-account-login.svg">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Volver al sitio <object data="assets/img/icon-feather-home.svg" type="image/svg+xml"></object></a>
+                            <a class="nav-link icon-nav" href="#">Volver al sitio
+                                <img src="assets/img/icon-feather-home.svg">
+                            </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,10 +49,22 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="btn-group btn-group-toggle d-flex custom-btn-group" data-toggle="buttons">
-                        <a href="#" class="btn btn-custom active" role="button" aria-pressed="true"><object data="assets/img/icon-feather-dollar-sign.svg" type="image/svg+xml" class="icon"></object>Pago del manual<object data="assets/img/icon-feather-chevron-down.svg" type="image/svg+xml" class="icon-arrow"></object></a>
-                        <a href="perfil-replicador.html" class="btn btn-custom" role="button" aria-pressed="true"><object data="assets/img/icon-feather-user.svg" type="image/svg+xml" class="icon"></object>Perfil replicado<object data="assets/img/icon-feather-chevron-down.svg" type="image/svg+xml" class="icon-arrow"></object></a>
-                        <a href="descarga-manual.html" class="btn btn-custom" role="button" aria-pressed="true"><object data="assets/img/icon-open-data-transfer-download.svg" type="image/svg+xml" class="icon"></object>Descarga de manual<object data="assets/img/icon-feather-chevron-down.svg" type="image/svg+xml" class="icon-arrow"></object></a>
-                        <a href="#" class="btn btn-custom" role="button" aria-pressed="true"><object data="assets/img/icon-awesome-comment-dots.svg" type="image/svg+xml" class="icon"></object>Sesiones de asistencia<object data="assets/img/icon-feather-chevron-down.svg" type="image/svg+xml" class="icon-arrow"></object></a>
+                        <a href="#" class="btn btn-custom active" role="button" aria-pressed="true">
+                            <img src="assets/img/icon-feather-dollar-sign.svg" class="icon">Pago del manual
+                            <img src="assets/img/icon-feather-chevron-down.svg" class="icon-arrow">
+                        </a>
+                        <a href="perfil-replicador.html" class="btn btn-custom" role="button" aria-pressed="true">
+                            <img src="assets/img/icon-feather-user.svg" class="icon">Perfil replicado
+                            <img src="assets/img/icon-feather-chevron-down.svg" class="icon-arrow">
+                        </a>
+                        <a href="descarga-manual.html" class="btn btn-custom" role="button" aria-pressed="true">
+                            <img src="assets/img/icon-open-data-transfer-download.svg" class="icon">Descarga de manual
+                            <img src="assets/img/icon-feather-chevron-down.svg" class="icon-arrow">
+                        </a>
+                        <a href="sesiones-asistencia.html" class="btn btn-custom" role="button" aria-pressed="true">
+                            <img src="assets/img/icon-awesome-comment-dots.svg" class="icon">Sesiones de asistencia
+                            <img src="assets/img/icon-feather-chevron-down.svg" class="icon-arrow">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -58,7 +74,9 @@
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <div class="manual-text">
-                        <div class="icon-manual"><img src="assets/img/education.svg" alt="icon manual"></div>
+                        <div class="icon-manual">
+                            <img src="assets/img/education.svg">
+                        </div>
                         <h2>ADQUIRIR MANUAL</h2>
                         <p>El importe del Manual se destina, en parte, para cubrir los gastos asociados a la elaboración, diseño y descarga del manual; y 
                             otra parte se dona para continuar con las construcciones sociales que realiza la fundación con los Eco-ladrillos, mediante el 
@@ -69,7 +87,7 @@
                     <div class="box-pay">
                         <div class="back"></div>
                         <div class="icon-business">
-                            <img src="assets/img/icon-business.svg" alt="">
+                            <img src="assets/img/icon-business.svg">
                         </div>
                         <h3>Pagar</h3>
                         <div class="content-pay">
@@ -83,14 +101,14 @@
                                 <label class="form-check-label" for="exampleRadios1">
                                     MercadoPago
                                 </label>
-                                <object data="assets/img/icon-awesome-info-circle.svg" type="image/svg+xml"></object>
+                                <img src="assets/img/icon-awesome-info-circle.svg">
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
                                 <label class="form-check-label" for="exampleRadios2">
                                     PayPal
                                 </label>
-                                <object data="assets/img/icon-awesome-info-circle.svg" type="image/svg+xml"></object>
+                                <img src="assets/img/icon-awesome-info-circle.svg">
                             </div>
                             <div class="form-group">
                               <input type="email" class="form-control input-custom" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Código de descuento (opcional)">
@@ -110,7 +128,7 @@
                             </div>
                         </div>
                         <div class="pay-now">
-                            <p><object data="assets/img/icon-feather-lock.svg" type="image/svg+xml"></object> Transacción encriptada</p>
+                            <p><img src="assets/img/icon-feather-lock.svg" type="image/svg+xml"> Transacción encriptada</p>
                             <button type="button" class="btn-green-apple">Pagar ahora</button>
                         </div>
                     </div>
