@@ -10,9 +10,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
 
-    <!-- Jalendar CSS -->
-    <link rel="stylesheet" href="assets/lib/jalendar/style/jalendar.css" type="text/css" />
-	<script type="text/javascript" src="assets/lib/jalendar/js/jalendar.js"></script>
+   <!-- Jalendar CSS -->
+   <link rel="stylesheet" href="assets/lib/jalendar/style/jalendar.css" type="text/css" />
 
   </head>
   <body>
@@ -87,7 +86,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mb-5">
         <div class="row">
             <div class="col-md-12">
                 <div class="box-reservation">
@@ -98,13 +97,110 @@
             </div>
         </div>
     </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jalendar-title">
+                    <h1>1ra</h1>
+                    <h2>Sesión</h2>
+                    <p>de asistencia virtual</p>
+                </div>
+                <div id="Calendar-1" class="jalendar">
+                    <div class="added-event" 
+                        data-type="event"
+                        data-link="#" 
+                        data-date="19-06-2020" 
+                        data-title="Titulo del evento">
+                    </div>
+                    <div class="added-event" 
+                        data-type="event"
+                        data-link="#" 
+                        data-date="17-06-2020" 
+                        data-title="Titulo del evento viejo">
+                    </div>
+                </div>
+                <div class="jalendar-extended">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="jalendar-date">
+                                <p>Reservar</p>
+                                <p>18 de Junio</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-0">
+                            <div class="jalendar-hour">
+                                <p>Horarios disponibles</p>
+                                <select class="custom-select input-custom">
+                                    <option selected>10:00</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4 align-self-end">
+                            <button type="submit" class="btn-green-apple">Reservar sesión</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="jalendar-title">
+                    <h1>2da</h1>
+                    <h2>Sesión</h2>
+                    <p>de asistencia virtual</p>
+                </div>
+                <div id="Calendar-2" class="jalendar">
+                    <div class="added-event" 
+                        data-type="event"
+                        data-link="#" 
+                        data-date="19-06-2020" 
+                        data-title="Titulo del evento">
+                    </div>
+                    <div class="added-event" 
+                        data-type="event"
+                        data-link="#" 
+                        data-date="17-06-2020" 
+                        data-title="Titulo del evento viejo">
+                    </div>
+                </div>
+                <div class="jalendar-extended">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="jalendar-date">
+                                <p>Reservar</p>
+                                <p>18 de Junio</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-0">
+                            <div class="jalendar-hour">
+                                <p>Horarios disponibles</p>
+                                <select class="custom-select input-custom">
+                                    <option selected>10:00</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4 align-self-end">
+                            <button type="submit" class="btn-green-apple">Reservar sesión</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mb-5 mt-5">
+                <button type="submit" class="btn-green-apple">Finalizar <img src="assets/img/icon-feather-chevron-down-white.svg"></button>
+            </div>
+        </div>
+    </div>
 
-    <div id="myCalendar" class="jalendar"></div>
 
-    <script type="text/javascript" src="assets/js/custom.js"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script><!--jQuery-->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="assets/lib/jalendar/js/jalendar.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
 </body>
 </html>

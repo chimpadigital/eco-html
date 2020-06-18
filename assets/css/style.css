@@ -425,3 +425,123 @@ p {
     float: right;
     margin: 7px -20px 0 0;
 }
+
+/* ===> Jalendar <=== */
+/* 
+.jalendar-title {
+    display: flex;
+} */
+
+.jalendar-title h1 {
+    float: left;
+    width: 62px;
+    height: 63px;
+    font-size: 28px;
+    color: #00B49D;
+    line-height: 64px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    border-radius: 50px;
+    background: #EEEEEE;
+}
+
+.jalendar-title h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: #00B49D;
+    line-height: 38px;
+    
+}
+
+.jalendar {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages {
+    border-radius: 20px 20px 0 0 !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages > .header h1 {
+    margin: 0 0 15px 0 !important;
+    text-shadow: none !important;
+    text-transform: none !important;
+    font: 24px "Open Sans", Arial, Helvetica, Geneva, sans-serif !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages .days .day.today span{
+    background-color: #00B49D !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages .days .day.have-event.event span:before {
+    top: 3px !important;
+    width: 8px !important;
+    height: 8px !important;
+    right: -3px !important;    
+    background: #00B49D !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages .total-bar {
+    background: #00B49D !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages .total-bar {
+    top: 0px !important;
+    width: 20px !important;
+    right: -25px !important;
+    height: 20px !important;
+    padding: 3px 0 0 0 !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages .days .day span {
+    margin: 0 !important;
+    width: 35px !important;
+    height: 35px !important;
+    font-size: 17px !important;
+    font-weight: 100 !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages .add-event .events .events-list .event-single a {
+    color: #00B49D !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages .add-event .events .events-list .event-single a.event:before {
+    background: #00B49D !important;
+}
+
+.jalendar .jalendar-container .jalendar-pages .add-event .close-button {
+    background: none !important;
+    border-radius: 0px !important;
+    
+    border-bottom: 1px solid #00B49D !important;
+}
+
+/* === /Fin Jalendar/ === */
+
+.jalendar-extended {
+    padding: 20px;
+    background: #FBF9F9;
+    border-radius: 0 0 20px 20px;
+}
+
+.jalendar-extended .jalendar-date p:first-child {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: #00B49D;
+}
+
+.jalendar-extended .jalendar-date p:last-child {
+    margin: 0;
+    font-size: 25px;
+}
+
+.jalendar-extended .jalendar-hour p {
+    margin: 5px 0;
+    font-size: 15px;
+    color: #00B49D;  
+}
+
+.jalendar-extended .btn-green-apple {
+    font-size: 14px;
+}
