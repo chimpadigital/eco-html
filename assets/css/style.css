@@ -526,22 +526,24 @@ p {
 
 .jalendar-extended .jalendar-date p:first-child {
     margin: 0;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 700;
     color: #00B49D;
 }
 
 .jalendar-extended .jalendar-date p:last-child {
     margin: 0;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .jalendar-extended .jalendar-hour p {
     margin: 5px 0;
-    font-size: 15px;
+    font-size: 14px;
     color: #00B49D;  
 }
 
 .jalendar-extended .btn-green-apple {
-    font-size: 14px;
+    font-size: 12px;
+
+    background: #00B49D;
 }
