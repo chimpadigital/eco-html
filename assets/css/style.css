@@ -17,6 +17,12 @@ p {
     margin-top: 90px;
 }
 
+.custom-select {
+    border: 1px solid #0097D6 !important;
+    border-radius: 24px 24px 5px 24px !important;
+    background: rgba(0, 151, 214, 0.05) url('../img/Icon-feather-chevron-down-select.svg') no-repeat right 1.5rem center/8px 10px !important;
+}
+
 .input-custom {
     border: 1px solid #0097D6 !important;
     border-radius: 24px 24px 5px 24px !important;
@@ -544,6 +550,5 @@ p {
 
 .jalendar-extended .btn-green-apple {
     font-size: 12px;
-
     background: #00B49D;
 }
