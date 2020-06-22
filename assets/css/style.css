@@ -254,7 +254,7 @@ h1, h2, h3 {
     text-decoration: underline;
 }
 
-.agreement-pay a:hover, .box-form a:hover, .footer-landing a:hover {
+.agreement-pay a:hover, .box-form a:hover, .footer-landing a:hover, .alert-cookie a:hover  {
     color: #0097D6;
 }
 
@@ -857,6 +857,11 @@ h1, h2, h3 {
     color: white;
     margin: 20px 0;
     font-size: 14px;
+}
+
+.alert-cookie a {
+    color: white;
+    text-decoration: underline;
 }
 
 .alert-cookie .btn-green-apple { 
