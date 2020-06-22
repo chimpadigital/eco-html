@@ -12,12 +12,16 @@
     font-weight: normal;
     font-style: normal;
 }
-  
+
 .btn.focus, .btn:focus, .custom {
     outline: none !important; /* Elimina Outline que agrega Bootstrap a los botones e inputs */
     box-shadow: none !important; /* Elimina Sombra que agrega Bootstrap a los botones e inputs */
 }
 /* ===== */
+
+html, body {
+    height:100%;
+} 
 
 p {
     color: #636466;
@@ -129,8 +133,6 @@ h1, h2, h3 {
 .custom-btn-group .icon .visited {
     filter: invert(75%) sepia(20%) saturate(1253%) hue-rotate(47deg) brightness(90%) contrast(90%);
 }
-
-
 
 
 /* Icon Manual */
@@ -455,11 +457,6 @@ h1, h2, h3 {
 }
 
 /* ===> Jalendar <=== */
-/* 
-.jalendar-title {
-    display: flex;
-} */
-
 .jalendar-title h1 {
     float: left;
     width: 62px;
@@ -584,35 +581,35 @@ h1, h2, h3 {
     color: #80C342 !important;
 }
 
-.header-landing {
-    height: 100vh;
-    background: url('../img/background-curve.png') no-repeat;
+#header-landing {
+    background: url('../img/background-curve.png') no-repeat bottom;
 }
 
-.header-landing img {
+#header-landing img {
+    width: 100%;
     margin: 50px 0 0 80px;
 }
 
-.header-landing h1 {
+#header-landing h1 {
     font-size: 42px;
     color: #80C342;
 }
 
-.header-landing hr, .handbook-container hr, .box-form hr {
+#header-landing hr, .handbook-container hr, .box-form hr {
     border: 2px solid #0097D6;
 }
 
-.header-landing p {
+#header-landing p {
     font-size: 30px !important;
 }
 
-.header-landing .btn-green-apple, .handbook-btn {
+#header-landing .btn-green-apple, .handbook-btn {
     float: none;
-    font-size: 27px;
+    font-size: 22px;
     padding: 11px 20px;
 }
 
-.header-landing .btn-secondary {
+#header-landing .btn-secondary {
     color: #80C342;
     padding: 8px 20px;
     margin-left: 30px;
@@ -620,7 +617,7 @@ h1, h2, h3 {
     border: 3px solid #80C342;
 }
 
-.header-landing .btn-secondary:hover {
+#header-landing .btn-secondary:hover {
     color: white;
     background-color: #80C342;
     border: 3px solid #80C342;
@@ -632,7 +629,7 @@ h1, h2, h3 {
 }
 
 .handbook-container {
-    margin: -100px 0 70px 0;
+    margin: 70px 0;
 }
 
 .handbook-container h1 {
@@ -664,6 +661,7 @@ h1, h2, h3 {
 
 .block-file {
     height: 254px;
+    transition: .3s;
     padding: 50px 15px;
     background: #00B49D;
     border-radius: 50px 10px 50px 10px;
@@ -672,7 +670,6 @@ h1, h2, h3 {
 .block-file:hover {
     opacity: 0.9;
     border-radius: 10px 50px 10px 50px ;
-    transition: ease-in-out;
 }
 
 .block-file-right {
@@ -770,20 +767,6 @@ h1, h2, h3 {
 .box-form .btn-green-apple {
     float: none;
     margin: 20px 0;
-}
-
-.btn-eco-inversion {
-    /* 
-    border: none;
-    font-size: 30px;
-    font-weight: 800;
-    padding: 10px 20px;
-    line-height: normal;
-    background: white;
-    mix-blend-mode: screen;
-    border-radius: 20px 7px 20px 20px;
-    font-family: 'DIN Pro', Arial, Helvetica, sans-serif;
-    */
 }
 
 .btn-orange {
