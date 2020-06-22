@@ -845,3 +845,22 @@ h1, h2, h3 {
     color: white;
     text-decoration: underline;
 }
+
+.alert-cookie {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background: #515150;
+}
+
+.alert-cookie p {
+    color: white;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.alert-cookie .btn-green-apple { 
+    font-size: 16px;
+    margin-left: 30px;
+    background: #0097D6;
+}
