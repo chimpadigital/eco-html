@@ -626,6 +626,7 @@ h1, h2, h3 {
 #handbook {
     background: url('../img/img-bottle-landing.png') left no-repeat,
                 url('../img/img-block-landing.png') right no-repeat;
+    background-size: 9%;
 }
 
 .handbook-container {
@@ -649,9 +650,24 @@ h1, h2, h3 {
 
 .blocks-container {
     padding: 40px 30px;
+    position: relative;
     border-radius: 34px;
     margin-bottom: 40px;
     border: 2px solid #00B49D;
+}
+
+.arrow-left {
+    top: 50%;
+    left: -2px;
+    position: absolute;
+    transform: translate( 0, -50% );
+}
+
+.arrow-right {
+    top: 50%;
+    right: -25px;
+    position: absolute;
+    transform: translate( 0, -50% );
 }
 
 .blocks-container p:first-child {
@@ -708,6 +724,7 @@ h1, h2, h3 {
 
 .block-file-foot p {
     margin: 7px 0;
+    text-align: left;
     color: #636466 !important;
     font-size: 16px !important;
 }
@@ -717,6 +734,7 @@ h1, h2, h3 {
     height: 52px;
     float: left;
     padding: 9px;
+    margin-right: 20px;
     border-radius: 100%;
     background: #0097D6;
 }
