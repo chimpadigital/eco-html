@@ -13,12 +13,6 @@
     font-style: normal;
 }
 
-.btn.focus, .btn:focus, .custom {
-    outline: none !important; /* Elimina Outline que agrega Bootstrap a los botones e inputs */
-    box-shadow: none !important; /* Elimina Sombra que agrega Bootstrap a los botones e inputs */
-}
-/* ===== */
-
 html, body {
     height:100%;
 } 
@@ -34,6 +28,16 @@ a {
 
 h1, h2, h3 {
     font-family: 'VAG', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #0097D6;
+    font-size: 30px !important;
+}
+
+.btn.focus, .btn:focus, .custom {
+    outline: none !important; /* Elimina Outline que agrega Bootstrap a los botones e inputs */
+    box-shadow: none !important; /* Elimina Sombra que agrega Bootstrap a los botones e inputs */
 }
 
 .nav-item .icon-nav img {
@@ -355,7 +359,6 @@ h1, h2, h3 {
 
 .banner h1 {
     color: white;
-    font-size: 30px;
     margin-top: 50px;    
     text-decoration: underline;
 }
@@ -373,11 +376,6 @@ h1, h2, h3 {
 .box-meet p:first-child {
     margin-bottom: 10px;
     font-size: 21px;
-}
-
-.box-meet h2 {
-    color: #0097D6;
-    font-size: 30px;
 }
 
 #form-perfil-replicador {
@@ -855,11 +853,6 @@ h1, h2, h3 {
     padding: 0 30px;
 }
 
-.banner-pay .banner-pay-text h1 {
-    font-size: 30px;
-    color: #0097D6;
-}
-
 .banner-pay .banner-pay-text p {
     margin: 0;
     font-size: 17px;
@@ -974,10 +967,8 @@ h1, h2, h3 {
 /* Politicas de Privacidad */
 
 #privacy-policies h1 {
-    font-size: 30px;
-    color: #0097D6;
-    text-align: center;
     margin: 50px 0;
+    text-align: center;
 }
 
 /* Login */
@@ -994,8 +985,6 @@ h1, h2, h3 {
 }
 
 #login .box h1 {
-    font-size: 30px;
-    color: #00B49D;
     margin-bottom: 20px;
 }
 
