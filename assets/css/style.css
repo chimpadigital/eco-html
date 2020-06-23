@@ -360,6 +360,10 @@ h1, h2, h3 {
     font-size: 30px;
 }
 
+#form-perfil-replicador {
+    background: url('../img/img-error-page-02.png') right 20% no-repeat;
+}
+
 .form-meet {
     margin: 20px 0;
 }
