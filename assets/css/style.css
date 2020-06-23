@@ -1036,4 +1036,13 @@ h1 {
     .btn-orange {
         font-size: 20px;
     }
+    #header-landing hr, .handbook-container hr, .box-form hr {
+        border: 1px solid #0097D6;
+        width: 82%;
+        margin-left: 0;
+    }
+    .handbook-container hr {
+        width: 446px;
+        margin: 20px auto 50px;
+    }
 }
