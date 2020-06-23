@@ -295,12 +295,26 @@ h1, h2, h3 {
     opacity: 0.9;
 }
 
+.btn-blue {
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 20px;
+    line-height: normal;
+    border-radius: 50px;
+    background: #0097D6;
+}
+.btn-blue:hover {
+    opacity: 0.9;
+    color: white;
+    text-decoration: none;
+}
+
 #pago-manual {
     height: 100vh;
     background: url('../img/block.png') left no-repeat, 
                         url('../img/mundo.png') right no-repeat;
-    
-    
 }
 
 /* Pago Exitoso */
@@ -950,4 +964,18 @@ h1, h2, h3 {
     float: none;
     margin-top: 20px;
     font-size: 16px;
+}
+
+/* Politicas de Privacidad */
+
+#privacy-policies h1 {
+    font-size: 30px;
+    color: #0097D6;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#privacy-policies .btn-blue {
+    float: right;
+    bottom: 0;
 }
