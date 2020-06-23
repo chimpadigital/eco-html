@@ -361,7 +361,7 @@ h1, h2, h3 {
 }
 
 #form-perfil-replicador {
-    background: url('../img/img-error-page-02.png') right 20% no-repeat;
+    background: url('../img/img-perfil-replicador.png') right 20% no-repeat;
 }
 
 .form-meet {
@@ -373,6 +373,10 @@ h1, h2, h3 {
     font-size: 15px;
     padding: 0 30px;
     margin-bottom: 20px;
+}
+
+.form-meet .radio-custom {
+    margin: 0;
 }
 
 .form-meet textarea.form-control {
