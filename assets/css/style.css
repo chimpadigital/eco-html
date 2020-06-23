@@ -295,11 +295,12 @@ h1, h2, h3 {
     opacity: 0.9;
 }
 
-.background-pago-manual {
+#pago-manual {
     height: 100vh;
-    background-image: url('../img/block.png'), url('../img/mundo.png');
-    background-position: -235px, 1450px;
-    background-repeat: no-repeat;
+    background: url('../img/block.png') left no-repeat, 
+                        url('../img/mundo.png') right no-repeat;
+    
+    
 }
 
 /* Pago Exitoso */
@@ -307,7 +308,7 @@ h1, h2, h3 {
     margin-top: 200px;
     text-align: center;
     padding: 100px 0 80px;
-    background-image: url(../img/background-banner.png);
+    background: url(../img/background-banner.png);
 }
 
 .banner .back {
