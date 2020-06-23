@@ -874,3 +874,59 @@ h1, h2, h3 {
     margin-left: 30px;
     background: #0097D6;
 }
+
+
+/* Page Error */
+#page-error {
+    height: 100%;
+    position: relative;
+    background: url('../img/background-error-page.png') bottom no-repeat,
+                    url('../img/img-error-page-01.png') left no-repeat,
+                        url('../img/img-error-page-02.png') right no-repeat;
+}
+
+ #page-error .box {
+    padding: 50px;
+    margin-top: 250px;
+    text-align: center;
+    background: white;
+    border-radius: 40px;
+    webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+                 box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+}
+
+#page-error .box .back {
+    width: 126px;
+    height: 126px;
+    border-radius: 100%;
+    background: white;
+    margin: -126px auto 0; 
+}
+
+#page-error .box .icon-banner {
+    width: 105px;
+    height: 105px;
+    padding: 32px;
+    display: block;
+    background: #F44336;
+    text-align: center;
+    border-radius: 100%;
+    margin: -116px auto 14px;
+}
+
+#page-error .box h1 {
+    font-size: 35px;
+    color: #F44336;
+}
+
+#page-error .box hr {
+    margin: 20px 0;
+    border: 2px solid #F44336;
+}
+
+#page-error .box .btn-green-apple {
+    float: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
