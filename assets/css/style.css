@@ -296,6 +296,7 @@ h1, h2, h3 {
 }
 
 .btn-blue {
+    float: right;
     border: none;
     color: white;
     font-size: 16px;
@@ -309,6 +310,10 @@ h1, h2, h3 {
     opacity: 0.9;
     color: white;
     text-decoration: none;
+}
+
+.btn-blue img {
+    margin: -1px 5px 0 0;
 }
 
 #pago-manual {
@@ -912,7 +917,7 @@ h1, h2, h3 {
 
 
 /* Page Error */
-#page-error {
+#page-error, #login {
     height: 100%;
     position: relative;
     background: url('../img/background-error-page.png') bottom no-repeat,
@@ -920,7 +925,7 @@ h1, h2, h3 {
                         url('../img/img-error-page-02.png') right no-repeat;
 }
 
- #page-error .box {
+ #page-error .box, #login .box {
     padding: 50px;
     margin-top: 250px;
     text-align: center;
@@ -975,7 +980,30 @@ h1, h2, h3 {
     margin: 50px 0;
 }
 
-#privacy-policies .btn-blue {
-    float: right;
-    bottom: 0;
+/* Login */
+
+#login .box .icon-banner {
+    width: 130px;
+    height: 130px;
+    padding: 38px 0;
+    display: block;
+    background: #00B49D;
+    text-align: center;
+    border-radius: 100%;
+    margin: -128px auto 30px;
+}
+
+#login .box h1 {
+    font-size: 30px;
+    color: #00B49D;
+    margin-bottom: 20px;
+}
+
+#login .box p {
+    margin-bottom: 40px;
+}
+
+#login .btn-green-apple {
+    float: none;
+    margin-top: 20px;
 }
