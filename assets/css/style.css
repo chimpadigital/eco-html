@@ -32,7 +32,11 @@ h1, h2, h3 {
 
 h1 {
     color: #0097D6;
-    font-size: 30px !important;
+    font-size: 30px;
+}
+
+.color-azul{
+    color: #0097D6;
 }
 
 .btn.focus, .btn:focus, .custom {
@@ -639,7 +643,7 @@ h1 {
 }
 
 #header-landing hr, .handbook-container hr, .box-form hr {
-    border: 2px solid #0097D6;
+    border: 1px solid #0097D6;
 }
 
 #header-landing p {
@@ -667,9 +671,9 @@ h1 {
 }
 
 #handbook {
-    background: url('../img/img-bottle-landing.png') left no-repeat,
-                url('../img/img-block-landing.png') right no-repeat;
-    background-size: 9%;
+    background:     url('../img/img-bottle-landing.png') left 45% no-repeat,
+                    url('../img/img-block-landing.png') right 45% no-repeat;
+    background-size: 16%;
 }
 
 .handbook-container {
@@ -696,19 +700,19 @@ h1 {
     position: relative;
     border-radius: 34px;
     margin-bottom: 40px;
-    border: 2px solid #00B49D;
+    border: 3px solid #00B49D;
 }
 
 .arrow-left {
     top: 50%;
-    left: -2px;
+    left: -3px;
     position: absolute;
     transform: translate( 0, -50% );
 }
 
 .arrow-right {
     top: 50%;
-    right: -25px;
+    right: -26px;
     position: absolute;
     transform: translate( 0, -50% );
 }
@@ -790,7 +794,7 @@ h1 {
 
 .box-eco-inversion h1 {
     color: white;
-    font-size: 43px;
+    font-size: 40px;
     line-height: 49px;
     margin-bottom: 50px;
     text-shadow: 0px 3px 6px rgba(0, 0, 0, .5);
@@ -840,6 +844,7 @@ h1 {
 
 .btn-orange img {
     margin-left: 10px;
+    margin-top: -5px;
 }
 
 .banner-pay {
@@ -995,4 +1000,40 @@ h1 {
 #login .btn-green-apple {
     float: none;
     margin-top: 20px;
+}
+
+
+/* Responsive */
+
+@media (max-width:1366px){
+    #handbook {
+        background: url(../img/img-bottle-landing.png) left 45% no-repeat, url(../img/img-block-landing.png) 102% 45% no-repeat;
+        background-size: 8%;
+    }
+    .arrow-right {
+        right: -25px;
+    }
+
+    #header-landing h1 {
+        font-size: 35px;
+    }
+    #header-landing p {
+        font-size: 25px !important;
+    }
+    #header-landing .btn-green-apple, .handbook-btn {
+        font-size: 18px;
+    }
+    .handbook-container h1 {
+        font-size: 35px;
+    }
+    .box-eco-inversion h1 {
+        font-size: 35px;
+        padding-right: 50px;
+    }
+    img.ecoinversion{
+        width: 60%;
+    }
+    .btn-orange {
+        font-size: 20px;
+    }
 }
