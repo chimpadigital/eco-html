@@ -675,7 +675,7 @@ h1, h2, h3 {
     transform: translate( 0, -50% );
 }
 
-.blocks-container p:first-child {
+.blocks-container p {
     font-size: 25px;
     color: #0097D6;   
 }
