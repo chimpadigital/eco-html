@@ -712,7 +712,7 @@ h1 {
 
 .arrow-right {
     top: 50%;
-    right: -26px;
+    right: -25px;
     position: absolute;
     transform: translate( 0, -50% );
 }
