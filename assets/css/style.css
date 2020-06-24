@@ -1058,15 +1058,9 @@ h1 {
 #encuesta .form h2 {
     font-size: 20px;
     color: #0097D6;
-    margin-top: 100px;
     text-align: center;
 }
 
-#encuesta .form hr {
-    width: 350px;
-    margin-bottom: 50px;
-    border: 1px solid #0097D6;
-}
 
 #encuesta .form p {
     font-size: 15px;
@@ -1076,6 +1070,71 @@ h1 {
     font-size: 13px;
 }
 
-#encuesta .form .radio-input .form-group{
+.radio-input .form-group{
     margin-bottom: 0;
+}
+
+
+#encuesta #first-form hr {
+    width: 350px;
+    margin-bottom: 50px;
+    border: 1px solid #0097D6;
+}
+
+#encuesta #first-form {
+    margin-top: 100px;
+    background: url('../img/img-bottle-encuesta.png') left 20% no-repeat;
+    background-size: 9%;
+}
+
+
+#encuesta #second-form  hr {
+    width: 205px;
+    margin-bottom: 50px;
+    border: 1px solid #0097D6;
+}
+
+#encuesta #second-form {
+    margin-top: 50px;
+    background: url('../img/img-block-encuesta.png') right no-repeat;
+    background-size: 9%;
+}
+
+#encuesta #third-form hr {
+    width: 270px;
+    margin-bottom: 20px;
+    border: 1px solid #0097D6;
+}
+
+#encuesta #third-form {
+    margin-top: 50px;
+    background: url('../img/img-plant-encuesta.png') left 100% no-repeat;
+    background-size: 5%;
+}
+
+#encuesta #third-form .form .subtitle {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+#encuesta #fourth-form {
+    margin-bottom: 100px;
+}
+
+#encuesta #fourth-form hr {
+    width: 215px;
+    margin-bottom: 20px;
+    border: 1px solid #0097D6;
+}
+
+#encuesta #fourth-form textarea {
+    min-height: 120px;
+}
+
+#encuesta #fourth-form .btn-green-apple img {
+    margin-top: -2px;
+    transform: rotate(180deg);
 }
