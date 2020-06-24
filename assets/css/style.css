@@ -32,7 +32,7 @@ h1, h2, h3 {
 
 h1 {
     color: #0097D6;
-    font-size: 30px;
+    font-size: 30px !important;
 }
 
 .color-azul{
@@ -1013,7 +1013,6 @@ h1 {
     .arrow-right {
         right: -25px;
     }
-
     #header-landing h1 {
         font-size: 35px;
     }
@@ -1030,7 +1029,7 @@ h1 {
         font-size: 35px;
         padding-right: 50px;
     }
-    img.ecoinversion{
+    img.ecoinversion {
         width: 60%;
     }
     .btn-orange {
@@ -1045,4 +1044,38 @@ h1 {
         width: 446px;
         margin: 20px auto 50px;
     }
+}
+
+#encuesta .box {
+    margin-top: 80px;
+}
+
+#encuesta .box hr {
+    width: 400px;
+    border: 2px solid #0097D6;
+}
+
+#encuesta .form h2 {
+    font-size: 20px;
+    color: #0097D6;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#encuesta .form hr {
+    width: 350px;
+    margin-bottom: 50px;
+    border: 1px solid #0097D6;
+}
+
+#encuesta .form p {
+    font-size: 15px;
+}
+
+#encuesta .form  .form-check-label {
+    font-size: 13px;
+}
+
+#encuesta .form .radio-input .form-group{
+    margin-bottom: 0;
 }
