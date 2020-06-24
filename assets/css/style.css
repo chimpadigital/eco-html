@@ -1100,6 +1100,11 @@ h1 {
     background-size: 9%;
 }
 
+#encuesta #third-form p {
+    line-height: 32px;
+    border-bottom: 1px solid #707070;
+}
+
 #encuesta #third-form hr {
     width: 270px;
     margin-bottom: 20px;
@@ -1113,15 +1118,15 @@ h1 {
 }
 
 #encuesta #third-form .form .subtitle {
+    border: none;
     font-size: 19px;
     font-weight: 700;
-    margin-bottom: 20px;
     text-align: center;
-
+    margin-bottom: 20px;
 }
 
 #encuesta #fourth-form {
-    margin-bottom: 100px;
+    margin: 50px 0 100px;
 }
 
 #encuesta #fourth-form hr {
