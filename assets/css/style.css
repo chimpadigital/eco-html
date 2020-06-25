@@ -1183,11 +1183,11 @@ h1 {
     margin-top: -2px;
     transform: rotate(180deg);
 }
-#terms-of-use {
+#terms-of-use, #confidentiality {
     margin-bottom: 150px;
 }
 
-#terms-of-use h1 {
+#terms-of-use h1, #confidentiality h1 {
     margin: 50px 0;
     text-align: center;
 }
@@ -1196,7 +1196,7 @@ h1 {
     color: #707070;
 }
 
-#terms-of-use h2 {
+#terms-of-use h2, #confidentiality h2  {
     font-size: 21px;
     color: #0097D6;
     margin-top: 50px;
@@ -1268,4 +1268,22 @@ h1 {
 #finalized-payment .blue-banner p {
     margin: 0;
     color: white;
+}
+
+
+#confidentiality ol { 
+    list-style-type: upper-roman;
+}
+
+#confidentiality li { 
+    font-size: 19px;
+    color: #707070;
+    margin-top: 65px;
+}
+#confidentiality .alpha {
+    list-style-type: upper-alpha
+}
+
+#confidentiality .alpha li {
+    margin-top: 20px;
 }
