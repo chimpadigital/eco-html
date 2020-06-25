@@ -824,7 +824,8 @@ h1 {
 
 .box-eco-inversion {
     margin-top: 50px;
-    background: url('../img/background-inversion.png') no-repeat;
+    background: url('../img/background-inversion.png') no-repeat center center;
+    background-size: cover;
 }
 
 .box-eco-inversion h1 {
