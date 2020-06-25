@@ -52,6 +52,10 @@ h1 {
     margin-top: -3px;
 }
 
+.dropdown-menu {
+    min-width: 0 !important;
+}
+
 .box-content {
     margin-top: 90px;
 }
@@ -724,6 +728,7 @@ h1 {
 
 .block-file {
     height: 254px;
+    margin: 10px 0;
     transition: .3s;
     padding: 50px 15px;
     background: #00B49D;
@@ -832,6 +837,13 @@ h1 {
 .box-form .btn-green-apple {
     float: none;
     margin: 20px 0;
+}
+
+.box-form img {
+    position: absolute;
+    right: 22px;
+    top: 10px;
+    cursor: pointer;
 }
 
 .btn-orange {
@@ -1142,4 +1154,62 @@ h1 {
 #encuesta #fourth-form .btn-green-apple img {
     margin-top: -2px;
     transform: rotate(180deg);
+}
+#terms-of-use {
+    margin-bottom: 150px;
+}
+
+#terms-of-use h1 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#terms-of-use p {
+    color: #707070;
+}
+
+#terms-of-use h2 {
+    font-size: 21px;
+    color: #0097D6;
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+#terms-of-use ol { 
+    counter-reset: item;
+}
+
+#terms-of-use li { 
+    display: block;
+    font-size: 19px;
+    color: #707070;
+    margin-top: 20px;
+}
+
+#terms-of-use li:before { 
+    font-size: 19px;
+    font-weight: 700;
+    color: #707070;
+    margin-left: -30px;
+    counter-increment: item;
+    content: counters(item, ".") " ";
+}
+
+#terms-of-use .title {
+    color: #0097D6;
+    font: 21px 'VAG', Arial, Helvetica, sans-serif;
+}
+
+#terms-of-use .form-check {
+    text-align: center;
+    margin: 50px 0;
+    
+}
+#terms-of-use .form-check a {
+    color: #707070;
+    text-decoration: underline;
+}
+
+#terms-of-use .form-check a:hover {
+    color: #0097D6;
 }
