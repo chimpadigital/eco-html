@@ -32,7 +32,7 @@ h1, h2, h3 {
 
 h1 {
     color: #0097D6;
-    font-size: 30px !important;
+    font-size: 30px;
 }
 
 .color-azul{
@@ -74,6 +74,18 @@ h1 {
 
 .input-custom:hover {
     opacity: 0.8;
+}
+
+.tooltip-inner {
+    min-width: 300px !important;
+    text-align: left !important;
+    padding: 5px 10px !important;
+    background: #F68B1F !important;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+    margin-left: -3px;
+    border-top-color: #F68B1F !important;
 }
 
 .circle {
@@ -839,10 +851,9 @@ h1 {
     margin: 20px 0;
 }
 
-.box-form img {
+.box-form .btn-tooltip {
+    right: 10px;
     position: absolute;
-    right: 22px;
-    top: 10px;
     cursor: pointer;
 }
 
