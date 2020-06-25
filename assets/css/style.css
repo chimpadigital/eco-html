@@ -396,6 +396,7 @@ h1 {
 
 .banner h1 {
     color: white;
+    font-size: 30px;
     margin-top: 50px;    
     text-decoration: underline;
 }
