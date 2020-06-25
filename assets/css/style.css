@@ -1206,6 +1206,10 @@ h1 {
     display: inline-flex;
 }
 
+#confidentiality .manifiesto li {
+    margin-top: 20px;
+}
+
 #terms-of-use ol { 
     counter-reset: item;
 }
