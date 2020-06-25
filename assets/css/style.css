@@ -1270,6 +1270,12 @@ h1 {
     color: white;
 }
 
+#confidentiality {
+    background: url('../img/img-plant-confidentiality.png') right 20% no-repeat,
+                    url('../img/img-recycle-confidentiality.png') left no-repeat,
+                        url('../img/img-bottle-confidentiality.png') right 90% no-repeat;
+
+    background-size: 9%, 9%, 10%;                    }
 
 #confidentiality ol { 
     list-style-type: upper-roman;
