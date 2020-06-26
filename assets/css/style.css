@@ -131,6 +131,22 @@ h1 {
     background: #dddddd;
 }
 
+.custom-btn-group .icon {
+    left: 30px;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    position: absolute;
+    background: white;
+    border-radius: 100%;
+}
+
+.custom-btn-group .icon-arrow {
+    right: 35px;
+    margin-top: -1px;
+    position: absolute;
+}
+
 /* === Normal === */
 .custom-btn-group .icon svg {
     stroke: #707070;
@@ -166,30 +182,6 @@ h1 {
 
 .custom-btn-group .visited .icon-arrow svg {
     stroke: white;
-}
-
-
-
-.custom-btn-group .icon {
-    left: 35px;
-    width: 28px;
-    position: absolute;
-    background: white;
-    border-radius: 100%;
-}
-
-
-.custom-btn-group .icon-arrow {
-    right: 35px;
-    position: absolute;
-}
-
-.custom-btn-group .icon .active {
-    filter: invert(54%) sepia(91%) saturate(2680%) hue-rotate(136deg) brightness(93%) contrast(101%);
-}
-
-.custom-btn-group .icon .visited {
-    filter: invert(75%) sepia(20%) saturate(1253%) hue-rotate(47deg) brightness(90%) contrast(90%);
 }
 
 
