@@ -16,7 +16,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
 html, body {
     height:100%;
 } 
@@ -118,8 +118,8 @@ h1 {
 
 /* Btn Estados */
 .custom-btn-group .btn-custom {
-    margin-top: 56px;
     height: 43px;
+    margin-top: 56px;
     color: #636466;
     line-height: 28px;
     margin-right: 3px;
@@ -131,31 +131,56 @@ h1 {
     background: #dddddd;
 }
 
+/* === Normal === */
+.custom-btn-group .icon svg {
+    stroke: #707070;
+}
+
+.custom-btn-group .icon-arrow svg {
+    stroke: #707070;
+}
+
+/* === Active === */
 .custom-btn-group .active {
     color: white;
     background: #00B49D;
 }
 
+.custom-btn-group .active .icon svg {
+    stroke: #00B49D;
+}
+
+.custom-btn-group .active .icon-arrow svg {
+    stroke: white;
+}
+
+/* === Visited === */
 .custom-btn-group .visited {
     color: white;
     background: #80C342;
 }
 
-/* Icons Estados */
+.custom-btn-group .visited .icon svg {
+    stroke: #80C342;
+}
+
+.custom-btn-group .visited .icon-arrow svg {
+    stroke: white;
+}
+
+
 
 .custom-btn-group .icon {
     left: 35px;
     width: 28px;
-    height: 28px;
-    padding: 6px;
     position: absolute;
     background: white;
     border-radius: 100%;
 }
 
+
 .custom-btn-group .icon-arrow {
     right: 35px;
-    margin: 5px;
     position: absolute;
 }
 
