@@ -1520,3 +1520,90 @@ h1 {
 #confidentiality .alpha li {
     margin-top: 20px;
 }
+
+/* =============MOBILE============== */
+
+.paso-mobile{
+    background: #00B49D;
+    font-family: 'DIN Pro', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 19px;
+    border-radius: 0 0 25px 25px;
+}
+
+.btn-custom-mobile{
+        background: #F5F5F5;
+        width: 50px;
+        height: 50px;
+        margin: 30px auto 10px;
+        border-radius: 100px;
+        display: flex;
+}
+.btn-custom-mobile .icon svg {
+    width: 17px;
+    stroke: #515150;
+    height: auto;
+}
+.btn-custom-mobile .icon.asist svg {
+    width: 22px;
+    stroke: #515150;
+    height: auto;
+    margin-top: -2px;
+}
+.btn-custom-mobile a {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+/* Active */
+.btn-custom-mobile.active {
+    background: #00B49D;
+    width: 100%;
+    height: 79%;
+    margin: 20px auto 0;
+    border-radius: 100px 100px 0 0;
+    display: flex;
+}
+.btn-custom-mobile.active.curva-d::after {
+    content: url(../img/curva-mobile-d.svg);
+    position: absolute;
+    right: -6px;
+    bottom: -8px;
+}
+.btn-custom-mobile.active.curva-i::before {
+    content: url(../img/curva-mobile-i.svg);
+    position: absolute;
+    left: -6px;
+    bottom: -8px;
+}
+.btn-custom-mobile.active a {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    background: white;
+    width: 40px;
+    margin: auto;
+    height: 40px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn-custom-mobile.active .icon svg {
+    stroke: #00b49d;
+}
+
+/* Visited */
+.btn-custom-mobile.visited .icon svg {
+    stroke: #fff;
+}
+.btn-custom-mobile.visited{
+    background: #80C342;
+    width: 50px;
+    height: 50px;
+    margin: 30px auto 10px;
+    border-radius: 100px;
+    display: flex;
+}
