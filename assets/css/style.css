@@ -677,229 +677,7 @@ h1 {
     background: #00B49D;
 }
 
-/* === Landing Mobile === */
-@media (max-width: 600px) {
 
-    #finalized-payment .banner {
-        padding: 50px 0 20px!important;
-    }
-
-    .p-sm-0 {
-        padding: 0 !important;
-    }
-
-    #header-landing .btn-green-apple, .handbook-btn, .btn-orange {
-        font-size: 17px !important;
-    }
-
-    .handbook-btn {
-        margin-top: 30px;
-    }
-
-    #header-landing img {
-        margin: 50px 0 0 0 !important;
-    }
-
-    #header-landing .center-mobile {
-        margin: 50px 30px;
-        text-align: center;
-    }
-
-    #header-landing .center-mobile h1, #eco-inversion .center-mobile h1 {
-        font-size: 30px;
-    }
-
-    #header-landing .center-mobile p {
-        font-size: 18px !important;
-    }
-
-    #header-landing hr {
-        margin: 30px auto 20px auto !important;
-    }
-
-    #mas-info .handbook-container {
-        margin: 100px 0 50px 0;
-    }
-
-    #mas-info .handbook-container h1 {
-        font-size: 25px;
-    }
-
-    #mas-info .handbook-container hr {
-        width: 100%;
-        margin: 15px auto 30px auto !important;
-    }
-
-    #mas-info .handbook-container p {
-        font-size: 14px;
-        line-height: 17px;
-    }
-
-    #mas-info #handbook {
-        background: url('../img/img-bottle-mobile.png') top no-repeat,
-                    url('../img/img-block-mobile.png') bottom no-repeat;
-                    padding-top: 67px;            
-    }
-
-    #mas-info #handbook .blocks-container {
-        margin-bottom: 98px;
-    }
-
-    #mas-info #handbook .blocks-container p {
-        font-size: 14px;
-        margin: 0 50px 5px 50px ;
-    }
-
-    #mas-info #handbook .blocks-container .arrow-left {
-        top: 0;
-        left: 50%;
-        position: absolute;
-        transform: rotate(90deg) translate(-60%, 25%);
-    }
-    
-    #mas-info #handbook .blocks-container .arrow-right {
-        top: 100%;
-        left: 50%;
-        position: absolute;
-        transform: rotate(90deg) translate(-48%, 25%);
-    }
-
-    #mas-info #handbook .blocks-container .block-file {
-        height: auto;
-        display: flex;
-        text-align: left;
-        padding: 10px 20px;
-    }
-
-    #mas-info #handbook .blocks-container .block-file .block-icon {
-        width: 40px;
-        height: 40px;
-        padding: 6px;
-        text-align: center;
-        margin: auto 20px auto 0;
-    }
-
-    #mas-info #handbook .blocks-container .block-file .icon-video {
-        padding: 6px 10px;
-    }
-
-    #mas-info #handbook .blocks-container .block-file .icon-question {
-        padding: 6px 14px;
-    }
-
-    #mas-info #handbook .blocks-container .block-file .icon-file {
-        padding: 6px 12px;
-    }
-
-    #mas-info #handbook .blocks-container .block-file .block-icon img {
-        max-width: 20px;
-        max-height: 20px;
-    }
-
-    #mas-info #handbook .blocks-container .block-file p {
-        margin: auto 0;
-        font-size: 12px;
-    }
-
-    #mas-info #handbook .blocks-container .block-file-right {
-        border-radius: 50px 10px 50px 10px;
-    }
-
-    #mas-info #handbook .blocks-container .block-file-foot {
-        padding: 20px;
-        display: grid;
-        margin-top: 15px;
-        border-radius: 27px;
-    }
-
-    #mas-info #handbook .blocks-container .block-file-foot p {
-        margin: 0;
-        text-align: center;
-        font-size: 12px !important;
-    }
-
-    #mas-info #handbook .blocks-container .block-file-foot .block-icon {
-        margin: 0 auto 20px;
-    }
-    
-    #eco-inversion .center-mobile {
-        margin: 70px 15px;
-        text-align: center;
-    }
-
-    #eco-inversion .center-mobile a img {
-        width: 100%;
-    }
-
-    #eco-inversion .center-mobile .btn-orange {
-        margin-top: 40px;
-    }
-    #eco-inversion .box-form {
-        width: 100%;
-        margin: 20px 0 0;
-        border-radius: 27px 27px 0 0;
-        
-    }
-
-    #eco-inversion .box-form h3 {
-        font-size: 16px;
-    }
-    #eco-inversion .box-form .form-check {
-        font-size: 14px;
-    }
-
-    #eco-inversion .box-form p {
-        font-size: 10px;
-    }
-
-    #eco-inversion .box-form hr {
-        margin: 0 auto 10px;
-    }
-
-    .banner-pay-mobile {
-        border-radius: 5px;
-        padding-right: 10px;
-        background: #F5F5F5;
-    }
-
-    .banner-pay-mobile .banner-pay-text {
-        margin-left: 10px;
-    }
-    
-    .banner-pay-mobile .banner-pay-text h2 {
-        font-size: 18px;
-    }
-
-    .banner-pay-mobile .banner-pay-text p {
-        font-size: 12px;
-        line-height: 18px;
-    }
-
-    .banner-pay-mobile .btn-green-apple {
-        font-size: 12px;
-        float: none;
-        background: #515150;
-    }
-
-    .footer-landing {
-        margin-top: 70px;
-        text-align: center;
-        padding: 50px 15px !important;
-    }
-    
-    .footer-landing img {
-        width: 60%;
-    }
-
-    .footer-landing p {
-        font-size: 18px !important;
-        padding: 40px 0 0 !important;
-        margin: 40px 0 0 !important;
-        border-top: 1px solid white;
-        border-left: none  !important;
-    }
-}
-        /* ===/ /=== */
 
 
 /* Landing */
@@ -1612,3 +1390,277 @@ h1 {
     border-radius: 100px;
     display: flex;
 }
+
+
+/* Alert login */
+.alert{
+    padding: 1.25rem 1.8rem!important;
+}
+.alert-light {
+    box-shadow: 2px 5px 5px #0000000d;
+    width: 500px;
+    position: absolute!important;
+    z-index: 100;
+    left: 50%;
+    border-radius: 1.25rem!important;
+    transform: translate(-50%, -12%);
+}
+.color-turquesa{
+    color: #00B49D;
+}
+.alert-light img {
+    width: 26px;
+    margin-top: -10px;
+}
+.alert-light a {
+    color: #80C342;
+    text-align: right;
+    transition: all .3s ease-in;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.alert-light a:hover {
+    color: #018b79;
+    text-align: right;
+}
+.btn-recuerde{
+    display: flex;
+    justify-content: flex-end;
+}
+.alert-dismissible {
+    padding-right: 2rem!important   ;
+}
+
+
+/* === Landing Mobile === */
+@media (max-width: 600px) {
+    .alert-light {
+        box-shadow: 2px 5px 5px #0000000d;
+        width: 90%;
+        position: absolute!important;
+        z-index: 100;
+        left: 5%;
+        border-radius: 1.25rem!important;
+        transform: translate(0%, 0%);
+    }
+
+    #finalized-payment .banner {
+        padding: 50px 0 20px!important;
+    }
+
+    .p-sm-0 {
+        padding: 0 !important;
+    }
+
+    #header-landing .btn-green-apple, .handbook-btn, .btn-orange {
+        font-size: 17px !important;
+    }
+
+    .handbook-btn {
+        margin-top: 30px;
+    }
+
+    #header-landing img {
+        margin: 50px 0 0 0 !important;
+    }
+
+    #header-landing .center-mobile {
+        margin: 50px 30px;
+        text-align: center;
+    }
+
+    #header-landing .center-mobile h1, #eco-inversion .center-mobile h1 {
+        font-size: 30px;
+    }
+
+    #header-landing .center-mobile p {
+        font-size: 18px !important;
+    }
+
+    #header-landing hr {
+        margin: 30px auto 20px auto !important;
+    }
+
+    #mas-info .handbook-container {
+        margin: 100px 0 50px 0;
+    }
+
+    #mas-info .handbook-container h1 {
+        font-size: 25px;
+    }
+
+    #mas-info .handbook-container hr {
+        width: 100%;
+        margin: 15px auto 30px auto !important;
+    }
+
+    #mas-info .handbook-container p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #mas-info #handbook {
+        background: url('../img/img-bottle-mobile.png') top no-repeat,
+                    url('../img/img-block-mobile.png') bottom no-repeat;
+                    padding-top: 67px;            
+    }
+
+    #mas-info #handbook .blocks-container {
+        margin-bottom: 98px;
+    }
+
+    #mas-info #handbook .blocks-container p {
+        font-size: 14px;
+        margin: 0 50px 5px 50px ;
+    }
+
+    #mas-info #handbook .blocks-container .arrow-left {
+        top: 0;
+        left: 50%;
+        position: absolute;
+        transform: rotate(90deg) translate(-60%, 25%);
+    }
+    
+    #mas-info #handbook .blocks-container .arrow-right {
+        top: 100%;
+        left: 50%;
+        position: absolute;
+        transform: rotate(90deg) translate(-48%, 25%);
+    }
+
+    #mas-info #handbook .blocks-container .block-file {
+        height: auto;
+        display: flex;
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    #mas-info #handbook .blocks-container .block-file .block-icon {
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+        text-align: center;
+        margin: auto 20px auto 0;
+    }
+
+    #mas-info #handbook .blocks-container .block-file .icon-video {
+        padding: 6px 10px;
+    }
+
+    #mas-info #handbook .blocks-container .block-file .icon-question {
+        padding: 6px 14px;
+    }
+
+    #mas-info #handbook .blocks-container .block-file .icon-file {
+        padding: 6px 12px;
+    }
+
+    #mas-info #handbook .blocks-container .block-file .block-icon img {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    #mas-info #handbook .blocks-container .block-file p {
+        margin: auto 0;
+        font-size: 12px;
+    }
+
+    #mas-info #handbook .blocks-container .block-file-right {
+        border-radius: 50px 10px 50px 10px;
+    }
+
+    #mas-info #handbook .blocks-container .block-file-foot {
+        padding: 20px;
+        display: grid;
+        margin-top: 15px;
+        border-radius: 27px;
+    }
+
+    #mas-info #handbook .blocks-container .block-file-foot p {
+        margin: 0;
+        text-align: center;
+        font-size: 12px !important;
+    }
+
+    #mas-info #handbook .blocks-container .block-file-foot .block-icon {
+        margin: 0 auto 20px;
+    }
+    
+    #eco-inversion .center-mobile {
+        margin: 70px 15px;
+        text-align: center;
+    }
+
+    #eco-inversion .center-mobile a img {
+        width: 100%;
+    }
+
+    #eco-inversion .center-mobile .btn-orange {
+        margin-top: 40px;
+    }
+    #eco-inversion .box-form {
+        width: 100%;
+        margin: 20px 0 0;
+        border-radius: 27px 27px 0 0;
+        
+    }
+
+    #eco-inversion .box-form h3 {
+        font-size: 16px;
+    }
+    #eco-inversion .box-form .form-check {
+        font-size: 14px;
+    }
+
+    #eco-inversion .box-form p {
+        font-size: 10px;
+    }
+
+    #eco-inversion .box-form hr {
+        margin: 0 auto 10px;
+    }
+
+    .banner-pay-mobile {
+        border-radius: 5px;
+        padding-right: 10px;
+        background: #F5F5F5;
+    }
+
+    .banner-pay-mobile .banner-pay-text {
+        margin-left: 10px;
+    }
+    
+    .banner-pay-mobile .banner-pay-text h2 {
+        font-size: 18px;
+    }
+
+    .banner-pay-mobile .banner-pay-text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .banner-pay-mobile .btn-green-apple {
+        font-size: 12px;
+        float: none;
+        background: #515150;
+    }
+
+    .footer-landing {
+        margin-top: 70px;
+        text-align: center;
+        padding: 50px 15px !important;
+    }
+    
+    .footer-landing img {
+        width: 60%;
+    }
+
+    .footer-landing p {
+        font-size: 18px !important;
+        padding: 40px 0 0 !important;
+        margin: 40px 0 0 !important;
+        border-top: 1px solid white;
+        border-left: none  !important;
+    }
+}
+        /* ===/ /=== */
