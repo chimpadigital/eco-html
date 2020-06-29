@@ -369,6 +369,7 @@ h1 {
     line-height: normal;
     border-radius: 50px;
     background: #00B49D;
+
 }
 
 .btn-green:hover {
@@ -662,7 +663,7 @@ h1 {
 
 .jalendar-extended .jalendar-date p:last-child {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .jalendar-extended .jalendar-hour p {
@@ -1433,6 +1434,10 @@ h1 {
 
 /* === Landing Mobile === */
 @media (max-width: 600px) {
+    .btn-green {
+        line-break: anywhere;
+        display: block;
+    }
     .alert-light {
         box-shadow: 2px 5px 5px #0000000d;
         width: 90%;
@@ -1853,6 +1858,12 @@ h1 {
     #finalized-payment .banner {
         padding: 110px 20px 20px!important;
     }
+    
+    .banner {
+        margin-top: 140px;
+
+    }
+
     #finalized-payment .banner h1 {
         font-size: 20px;
         text-decoration: none;
