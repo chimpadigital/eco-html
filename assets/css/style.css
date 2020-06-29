@@ -1813,6 +1813,14 @@ h1 {
     #encuesta #first-form hr {
         margin-bottom: 30px;
     }
-    
+
+    #encuesta #first-form .form-check-inline {
+        display: block;
+        margin-bottom: 17px;
+    }
+
+    #encuesta #first-form .form-row {
+        display: block;
+    }
 }
         /* ===/ /=== */
