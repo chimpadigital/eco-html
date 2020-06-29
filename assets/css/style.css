@@ -1764,5 +1764,30 @@ h1 {
         text-align: center;
     }
 
+    #form-perfil-replicador {
+        background: none;
+    }
+
+    #form-perfil-replicador .box-meet h1 {
+        font-size: 30px;
+    }
+
+    #form-perfil-replicador .box-meet p:last-child {
+        font-size: 14px;
+    }
+
+    #form-perfil-replicador .form-meet .center-mobile {
+        text-align: center;
+    }
+
+    #form-perfil-replicador .form-meet .center-mobile .btn-green-apple {
+        float: none;
+        height: 70px;
+        width: 70px;
+    }
+
+    #form-perfil-replicador .form-meet .center-mobile .btn-green-apple img {
+        width: 50%;
+    }
 }
         /* ===/ /=== */
