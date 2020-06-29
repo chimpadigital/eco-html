@@ -1789,5 +1789,30 @@ h1 {
     #form-perfil-replicador .form-meet .center-mobile .btn-green-apple img {
         width: 50%;
     }
+
+    #encuesta #first-form, #encuesta #second-form, #encuesta #third-form {
+        background: none;
+    }
+
+    #encuesta .box h1 {
+        font-size: 30px;
+    }
+
+    #encuesta .box p {
+        font-size: 14px;
+    }
+    
+    #encuesta #first-form {
+        margin-top: 50px;
+    }
+
+    #encuesta #first-form h2 {
+        font-size: 14px;
+    }
+
+    #encuesta #first-form hr {
+        margin-bottom: 30px;
+    }
+    
 }
         /* ===/ /=== */
