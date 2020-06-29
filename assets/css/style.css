@@ -1740,5 +1740,29 @@ h1 {
         font-size: 18px;
     }
 
+    .box-reservation p {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 30px;
+    }
+
+    #calendar {
+        background: none;
+    }
+    
+    #calendar .btn-green-apple {
+        float: none;
+        font-size: 18px;
+    }
+
+    #calendar .jalendar-extended {
+        margin-bottom: 70px;
+    }
+
+    #calendar .align-self-end {
+        margin: 30px 0;
+        text-align: center;
+    }
+
 }
         /* ===/ /=== */
