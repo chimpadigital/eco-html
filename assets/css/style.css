@@ -1598,6 +1598,11 @@ h1 {
     #eco-inversion .center-mobile .btn-orange {
         margin-top: 40px;
     }
+
+    #eco-inversion .center-mobile .btn-orange img {
+        transform: rotate(90deg);
+    }
+    
     #eco-inversion .box-form {
         width: 100%;
         margin: 20px 0 0;
@@ -1699,5 +1704,41 @@ h1 {
         font-size: 24px;
         margin: 20px 0;
     }
+    
+    .banner-download {
+        margin-top: 200px;
+    }
+
+    #download-files {
+        background: none;
+    }
+
+    #download-files .box .icon-download {
+        margin-bottom: 20px;
+    }
+
+    #download-files .box .check-download {
+        margin: 20px 0 80px 0;
+    }
+
+    #download-files .box .btn-download {
+        margin-bottom: 80px;
+    }
+
+    .arrow-green {
+        left: 50%;
+        bottom: 30px;
+        position: absolute;
+        transform: rotate(90deg) translate( 0, 25% );
+    }
+
+    .box-next-step {
+        text-align: center;
+    }
+
+    .box-next-step .btn-green-apple {
+        font-size: 18px;
+    }
+
 }
         /* ===/ /=== */
