@@ -1838,5 +1838,12 @@ h1 {
     .dropdown-item {
         text-align: center !important;
     }
+
+    #page-error, #login {
+        height: 100%;
+        position: relative;
+        background: url('../img/background-error-page.png') bottom no-repeat,
+                        url('../img/img-login-mobile.png') bottom  no-repeat;
+    }
 }
         /* ===/ /=== */
