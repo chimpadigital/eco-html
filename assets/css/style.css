@@ -1263,7 +1263,7 @@ h1 {
 }
 
 #finalized-payment .banner {
-    padding: 100px 0 20px;
+    padding: 100px 200px 20px;
 }
 
 #finalized-payment .blue-banner {
@@ -1848,6 +1848,15 @@ h1 {
 
     #finalized-payment .background {
         background: none;
+    }
+
+    #finalized-payment .banner {
+        padding: 110px 20px 20px!important;
+    }
+    #finalized-payment .banner h1 {
+        font-size: 20px;
+        text-decoration: none;
+        border-bottom: 2px solid white;
     }
 }
         /* ===/ /=== */
