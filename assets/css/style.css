@@ -1279,6 +1279,13 @@ h1 {
     color: white;
 }
 
+#finalized-payment .background .btn-green {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+    white-space: break-spaces;
+}
+
 #confidentiality {
     background: url('../img/img-plant-confidentiality.png') right 20% no-repeat,
                     url('../img/img-recycle-confidentiality.png') left no-repeat,
@@ -1801,6 +1808,10 @@ h1 {
         font-size: 14px;
     }
     
+    #encuesta .box hr, #encuesta #first-form hr {
+        width: 100%;
+    }
+
     #encuesta #first-form {
         margin-top: 50px;
     }
