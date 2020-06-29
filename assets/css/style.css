@@ -1845,5 +1845,9 @@ h1 {
         background: url('../img/background-error-page.png') bottom no-repeat,
                         url('../img/img-login-mobile.png') bottom  no-repeat;
     }
+
+    #finalized-payment .background {
+        background: none;
+    }
 }
         /* ===/ /=== */
